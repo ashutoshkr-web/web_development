@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Practice</title>
+</head>
+<body>
+
+<script>
+    // Arithmetic Operators
+    // let x = 90;
+    // let y = 20;
+    // console.log(x+y, x-y, x*y, x/y, x%y);
+
+    let q = 70;
+    console.log(q++); // 70 (Post-increment)
+    console.log(q);   // 71
+
+    // Assignment Operators
+    let x1 = 10;
+    let y1 = 20;
+
+    console.log(x1 += y1); // 30
+    console.log(x1 -= y1); // 10
+    console.log(x1 *= y1); // 200
+
+    // Comparison Operators
+    let x2 = 90;
+    let y2 = 10;
+
+    console.log(x2 >= y2); // true
+
+    // Logical Operators
+    let x = 90;
+    let y = 10;
+
+    console.log(x > y && x <= y); // false
+    console.log(x < y || x >= y); // true
+    console.log(!(x > y));        // false
+    console.log(!(x < y));        // true
+
+    // Branching Statements
+    let marks = 70;
+
+    if (marks >= 90) {
+        console.log("Elite batch");
+    }
+    else if (marks >= 75) {
+        console.log("Intermediate batch");
+    }
+    else if (marks >= 60) {
+        console.log("Regular Batch");
+    }
+    else {
+        console.log("Fail");
+    }
+
+    // Looping Statements
+
+    for (let i = 3; i <= 15; i++) {
+        if (i === 6) {
+            break;
+        }
+        console.log(i);
+    }
+
+    // While Loop
+    // let j = 11;
+    // while (j <= 10) {
+    //     console.log(j);
+    //     j++;
+    // }
+
+    // Do-While Loop
+    // let k = 91;
+    // do {
+    //     console.log(k);
+    //     k++;
+    // } while (k <= 90);
+
+    // Functions
+    function greetings() {
+        console.log("Good Morning!!!");
+    }
+
+    greetings();
+    greetings();
+
+    function addition(a, b, c) {
+        return a + b + c;
+    }
+
+    console.log("The sum is:", addition(3, 5, 2));
+
+    // Arrow Functions
+    const subtraction = (m, n) => {
+        return m - n;
+    };
+
+    console.log(subtraction(3, 1));
+
+    const greet = () => {
+        return "Hello";
+    };
+
+    console.log(greet());
+
+    // String Functions
+    let str1 = "  Javascript  ";
+    let str2 = "CSE326";
+
+    console.log("We are studying", str1, "in", str2);
+
+    // String Template Literals
+    console.log(`We are studying ${str1} in ${str2}`);
+
+    console.log(str1.indexOf("v"));
+    console.log(str1.charAt(5));
+    console.log(str1.trim().length);
+    console.log(str1);
+    arrray1.pop();
+    console
+    arrray1.push("k26pt")
+    console.log(arrray1);
+
+
+
+    arrray1.splice(0,2,"mongo", "grapes","c", "onion")
+
+
+</script>
+
+</body>
+</html>
